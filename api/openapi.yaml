@@ -41,7 +41,8 @@ paths:
       - Agent
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/agent/list/page-size/{pageSize}:
     post:
       operationId: Agent_ListAgents
@@ -80,7 +81,8 @@ paths:
       - Agent
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /v1/{tenantId}/agent/{id}:
     get:
       operationId: Agent_GetAgent
@@ -110,7 +112,8 @@ paths:
           description: An unexpected error response.
       tags:
       - Agent
-      x-accepts: application/json
+      x-accepts:
+      - application/json
     put:
       operationId: Agent_UpdateAgent
       parameters:
@@ -147,7 +150,8 @@ paths:
       - Agent
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
 components:
   schemas:
     ListRequestFilters:
@@ -265,11 +269,19 @@ components:
     protobufAny:
       additionalProperties:
         type: object
+      example:
+        '@type': '@type'
       properties:
         '@type':
           type: string
       type: object
     rpcStatus:
+      example:
+        code: 0
+        details:
+        - '@type': '@type'
+        - '@type': '@type'
+        message: message
       properties:
         code:
           format: int32

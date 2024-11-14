@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**agents**| [**List<AgentAgentEntity>**](AgentAgentEntity.md) |   | [optional]
+**agents**| [**List<AgentAgentEntity>**](AgentAgentEntity.md) |   | [optional] [default to new ArrayList<>()]
 **pageToken**| **String** |   | [optional]
 
 

@@ -19,11 +19,11 @@ All URIs are relative to *https://agent.api.gogemini.io*
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Agent.ApiClient;
-import GeminiCommerce_Agent.ApiException;
-import GeminiCommerce_Agent.Configuration;
-import GeminiCommerce_Agent.auth.*;
-import GeminiCommerce_Agent.models.*;
+import GeminiCommerce.Agent.ApiClient;
+import GeminiCommerce.Agent.ApiException;
+import GeminiCommerce.Agent.Configuration;
+import GeminiCommerce.Agent.auth.*;
+import GeminiCommerce.Agent.models.*;
 import org.openapitools.client.api.AgentApi;
 
 public class Example {
@@ -89,11 +89,11 @@ public class Example {
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Agent.ApiClient;
-import GeminiCommerce_Agent.ApiException;
-import GeminiCommerce_Agent.Configuration;
-import GeminiCommerce_Agent.auth.*;
-import GeminiCommerce_Agent.models.*;
+import GeminiCommerce.Agent.ApiClient;
+import GeminiCommerce.Agent.ApiException;
+import GeminiCommerce.Agent.Configuration;
+import GeminiCommerce.Agent.auth.*;
+import GeminiCommerce.Agent.models.*;
 import org.openapitools.client.api.AgentApi;
 
 public class Example {
@@ -159,11 +159,11 @@ public class Example {
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Agent.ApiClient;
-import GeminiCommerce_Agent.ApiException;
-import GeminiCommerce_Agent.Configuration;
-import GeminiCommerce_Agent.auth.*;
-import GeminiCommerce_Agent.models.*;
+import GeminiCommerce.Agent.ApiClient;
+import GeminiCommerce.Agent.ApiException;
+import GeminiCommerce.Agent.Configuration;
+import GeminiCommerce.Agent.auth.*;
+import GeminiCommerce.Agent.models.*;
 import org.openapitools.client.api.AgentApi;
 
 public class Example {
@@ -231,11 +231,11 @@ public class Example {
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Agent.ApiClient;
-import GeminiCommerce_Agent.ApiException;
-import GeminiCommerce_Agent.Configuration;
-import GeminiCommerce_Agent.auth.*;
-import GeminiCommerce_Agent.models.*;
+import GeminiCommerce.Agent.ApiClient;
+import GeminiCommerce.Agent.ApiException;
+import GeminiCommerce.Agent.Configuration;
+import GeminiCommerce.Agent.auth.*;
+import GeminiCommerce.Agent.models.*;
 import org.openapitools.client.api.AgentApi;
 
 public class Example {

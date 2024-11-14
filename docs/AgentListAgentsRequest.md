@@ -7,7 +7,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pageToken**| **String** |   | [optional]
-**sorts**| [**List<ListRequestSort>**](ListRequestSort.md) |   | [optional]
+**sorts**| [**List<ListRequestSort>**](ListRequestSort.md) |   | [optional] [default to new ArrayList<>()]
 **filtersMask**| **String** |   | [optional]
 **filters**| [**ListRequestFilters**](ListRequestFilters.md) |   | [optional]
 
