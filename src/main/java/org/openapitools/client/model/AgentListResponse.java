@@ -51,7 +51,7 @@ import GeminiCommerce.Agent.JSON;
 /**
  * AgentListResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-14T11:47:10.416761900Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T15:26:06.985941454Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class AgentListResponse {
   public static final String SERIALIZED_NAME_AGENTS = "agents";
   @SerializedName(SERIALIZED_NAME_AGENTS)
