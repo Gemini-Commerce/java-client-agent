@@ -52,7 +52,7 @@ import GeminiCommerce.Agent.JSON;
 /**
  * AgentListAgentsRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:30:35.829356459Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-18T16:39:15.166128119Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class AgentListAgentsRequest {
   public static final String SERIALIZED_NAME_PAGE_TOKEN = "pageToken";
   @SerializedName(SERIALIZED_NAME_PAGE_TOKEN)
